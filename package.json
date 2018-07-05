@@ -1,5 +1,5 @@
 {
-  "name": "baas-sdk",
+  "name": "baas-sdk-node",
   "version": "1.0.0",
   "description": "GXChain BaaS storage api implemented in js",
   "keywords": [

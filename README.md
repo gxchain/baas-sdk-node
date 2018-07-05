@@ -1,7 +1,7 @@
 # Install
 
 ```bash
-npm install baas-sdk --save
+npm install baas-sdk-node --save
 ```
 
 # Usage
