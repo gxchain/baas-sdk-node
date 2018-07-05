@@ -22,7 +22,9 @@
     "browserify": "browserify --full-paths dist/browser.js --standalone baas_sdk_js -o build/baas-sdk.js -d",
     "postbrowserify": "uglifyjs --compress --mangle --sequences --drop_console --output build/baas-sdk.min.js -- build/baas-sdk.js",
     "prepublish": "npm run build",
-    "example:BaaSClientTest":"babel-node examples/BaaSClientTest.js"
+    "test:provider":"babel-node test/provider.js",
+    "test:store":"babel-node test/store.js",
+    "test:data":"babel-node test/data.js"
   },
   "author": "David Lan <lanhaoxiang@qq.com> (https://github.com/lanhaoxiang)",
   "contributors": [
