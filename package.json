@@ -1,7 +1,7 @@
 {
   "name": "baas-sdk",
   "version": "1.0.0",
-  "description": "gxchain baas storage api implemented in js",
+  "description": "GXChain BaaS storage api implemented in js",
   "keywords": [
     "gxs",
     "baas",
